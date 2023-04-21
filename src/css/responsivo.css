@@ -1,0 +1,37 @@
+@media (max-width:680px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 1440px;
+        margin: auto;
+        width: 320px;
+    }
+
+    .text-tittle {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .result .score-text {
+        max-width: 100%;
+    }
+
+    .summary {
+        padding: 10px ;
+    }
+
+    .summary ul li {
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    .attribution {
+        font-size: 1.3rem;
+    }
+
+}

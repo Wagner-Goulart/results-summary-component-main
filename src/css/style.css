@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url(../assets/fonts/HankenGrotesk-VariableFont_wght.ttf), url(../assets/fonts/static/HankenGrotesk-Bold.ttf), url(../assets/fonts/static/HankenGrotesk-ExtraBold.ttf),url(../assets/fonts/static/HankenGrotesk-Medium.ttf)
+}
+
+body {
+    font-family: 'Hanken Grotesk';
+    font-size: 1.8rem;
+    font-weight: 500;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(221, 100%, 96%);
+}
+
+.container {
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.479);
+}
+
+.result{
+    color: hsl(0, 0%, 100%);
+    /* padding: 5px; */
+    text-align: center;
+    border-radius: 30px;
+    width: 320px;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.result .score-text {
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    color:hsl(241, 100%, 89%);
+}
+
+.circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.circle p {
+    font-size: 4rem;
+    margin-bottom: 3px;
+}
+
+.circle  small {
+    color:hsl(241, 100%, 89%);
+    font-size: 9px;
+}
+
+
+.text-tittle {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1.9rem;
+}
+
+.summary {
+    width: 350px;
+}
+
+.summary .text-tittle,
+.summary ul,
+.summary button {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.summary .text-tittle {
+    margin-bottom: 10px;
+}
+
+.summary ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.summary ul li:last-child {
+    margin-bottom: 30px;
+}
+
+.summary ul li span {
+    color: hsl(240, 1%, 52%)
+}
+
+.summary button {
+    width: 90%;
+    padding:15px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 30px;
+}
+
+.summary button:hover {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.reaction{
+    background-color:hsla(0, 100%, 67%, 0.158)
+}
+.reaction-text {
+    color: hsl(0, 100%, 67%);
+
+}
+
+.memory {
+    background-color: hsla(39, 100%, 56%, 0.158);
+}
+.memory-text {
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+    background-color: hsla(166, 100%, 37%, 0.158);
+}
+.verbal-text {
+    color: hsl(166, 100%, 37%);
+}
+
+.visual {
+    background-color: hsla(234, 85%, 45%, 0.158);
+}
+.visual-text {
+    color: hsl(234, 85%, 45%);
+}
+
+.attribution {
+    text-align: center;
+    margin-top: 5px;
+    
+}
+
+.attribution a {
+    transition: 0.3s;
+}
+
+.attribution a:hover {
+    color:hsl(224, 30%, 27%);
+    text-decoration: underline;
+}
